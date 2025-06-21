@@ -121,7 +121,7 @@ npm start
 ## 👤 Author
 
 **Swarnadeep Roy**  
-[LinkedIn](https://www.linkedin.com/in/swarnadeep-roy/) | [GitHub](https://github.com/swarnadeep-roy)
+[LinkedIn](https://www.linkedin.com/in/swarnadeeproy/) | [GitHub](https://github.com/swarnadeep31)
 
 ---
 
