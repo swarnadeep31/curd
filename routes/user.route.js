@@ -4,7 +4,7 @@ import {
   create,
   update,
   deleteUser,
-} from "../controller/userController.js";
+} from "../controller/user.controller.js";
 
 const route = express.Router();
 

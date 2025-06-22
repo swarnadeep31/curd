@@ -1,4 +1,4 @@
-import User from "../models/userModel.js";
+import User from "../models/user.js";
 
 export const create = async (req, res) => {
   try {
@@ -54,8 +54,7 @@ export const deleteUser = async (req, res) => {
       return res.status(404).json({ message: "User Not Found," });
     }
     await User.findByIdAndDelete(id);
-    res.status(201).json({message:"User delted succesfully"})
-
+    res.status(201).json({ message: "User delted succesfully" });
   } catch (error) {
     res.status(500).json({ error: "Internal Server error." });
   }
